@@ -10,6 +10,7 @@ Install Rust using the following command:
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+image[](/img/gc1.png)
 
 install wasm32-unknown-unknown target
 
@@ -24,7 +25,12 @@ rustup target add wasm32-unknown-unknown
 
 - Move the binary to ~/.cargo/bin
 
-- run cargo concordium --help to verify the installation
+- verify the installation
+    
+    ```bash
+    cargo concordium --help
+    ```
+
 
 
 
