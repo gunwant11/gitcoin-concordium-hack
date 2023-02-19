@@ -19,28 +19,33 @@ rustup target add wasm32-unknown-unknown
 
 
 ### Install Cargo-Concordium
- -Download the latest release from [here](https://developer.concordium.software/en/mainnet/net/installation/downloads-testnet.html#cargo-concordium-testnet)
 
- -Move the binary to ~/.cargo/bin
+- Download the latest release from [here](https://developer.concordium.software/en/mainnet/net/installation/downloads-testnet.html#cargo-concordium-testnet)
 
- -run cargo concordium --help to verify the installation
+- Move the binary to ~/.cargo/bin
+
+- run cargo concordium --help to verify the installation
 
 
 
 
 ### Install Concordium Client
 
-    -Download the latest release from [here](https://developer.concordium.software/en/mainnet/net/installation/downloads-testnet.html#concordium-node-and-client-download-testnet)
+- Download the latest release from [here](https://developer.concordium.software/en/mainnet/net/installation/downloads-testnet.html#concordium-node-and-client-download-testnet)
     
-    -Move the binary to ~/.cargo/bin
+- Move the binary to ~/.cargo/bin
     
-    -run concordium-client --help to verify the installation
+-  verify the installation
+    
+    ```bash
+    concordium-client --help
+    ```
 
-    -connect to the public node with the following command:
+- connect to the public node with the following command:
         
-        ```bash
+```bash
         concordium-client consensus status --grpc-port 10000 --grpc-ip node.testnet.concordium.com
-        ```
+```
 
 ### Setup a Testnet Account and get testnet CCD
 
