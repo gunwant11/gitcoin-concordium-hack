@@ -43,9 +43,9 @@ rustup target add wasm32-unknown-unknown
 
 - connect to the public node with the following command:
         
-```bash
+    ```bash
         concordium-client consensus status --grpc-port 10000 --grpc-ip node.testnet.concordium.com
-```
+    ```
 
 ### Setup a Testnet Account and get testnet CCD
 
