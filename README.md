@@ -1,16 +1,16 @@
-### Concordium Hackathon 
+# Concordium Hackathon 
 
 ## Task 1: Concordium Blockchain Development Env
 
-# Mainnet address: 
+### Mainnet address: 
 
-# Install Rust
+### Install Rust
 
-# Install Cargo-Concordium
+### Install Cargo-Concordium
 
-# Install Concordium Client
+### Install Concordium Client
 
-# Setup a Testnet Account and get testnet CCD
+### Setup a Testnet Account and get testnet CCD
 
-# Export Wallet keys and import them into the Concordium Client
+### Export Wallet keys and import them into the Concordium Client
 
