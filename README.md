@@ -2,7 +2,7 @@
 
 ## Task 1: Concordium Blockchain Development Env
 
-### Mainnet address: 
+### Mainnet address: 3XQNt7PL3iKwWwkYV4FxYwrLo2qZMx2vMUocA7PK1KKWjbwmBa
 
 ### Install Rust
 Install Rust using the following command:
